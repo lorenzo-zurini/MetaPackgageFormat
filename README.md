@@ -23,80 +23,41 @@ SteamGrid-like cover for the software, intended for games, so they can be displa
 The most important file of the package, containing all the information that defines the interaction between the components contained in it.
 MANIFEST.json is a JSON file with the following structure:
 
-PACKAGENAME - The name of the package eg. "Age of Empires II"
-PACKAGEUID - A unique identifier for this specific software. For games, using TGDBID is recommended.
-PACKAGEVERSION - A package version, set by the packager eg. "v1.0"
-"SUBGAMES":
-    [
-{
-        "TITLE": "Age of Mythology",
-        "PLATFORM": "Windows",
-        "EXEPATH": "aom.exe",
-        "EXEARGS": "xres=%ScreenWidth% yres=%ScreenHeight%",
-        "WORKDIR": null,
-        "GAMEUID": "7804",
-        "TGDBID": "7804",
-        "STEAMAPPID": null,
-        "UMUID": "0",
-        "GOGPRODUCTID": null,
-        "COVER": "AoM_Cover.jpg",
-        "RELEASEDATE": "2002-10-30",
-        "EDITION": "Original Release",
-        "EDITIONDATE": null,
-        "DEVELOPER": "Ensemble Studios",
-        "PUBLISHER": "Microsoft Studios",
-        "SERIES": "Age of Empires",
-        "SERIESSORTNUMBER": "6",
-        "SUBSERIES": "Age of Mythology",
-        "SUBSERIESSORTNUMBER": "1",
-        "EDITOR": "Yes",
-        "ONLINEDRM": "No",
-        "NETWORKMULTIPLAYER": "Yes",
-        "DIRECTCONNECT": "Yes",
-        "LANMULTIPLAYER": "Yes",
-        "ONLINEMULTIPLAYER": "No",
-        "NETWORKCOOP": "No",
-        "LOCALMULTIPLAYER": "No",
-        "LOCALCOOP": "No",
-        "OTHERONLINEFEATURES": "NA",
-        "COMPONENT": "3"
-        },
-        {
-        "TITLE": "Age of Mythology - The Titans",
-        "PLATFORM": "Windows",
-        "EXEPATH": "aomx.exe",
-        "EXEARGS": "xres=%ScreenWidth% yres=%ScreenHeight%",
-        "WORKDIR": null,
-        "GAMEUID": "7805",
-        "TGDBID": "7805",
-        "STEAMAPPID": null,
-        "UMUID": "0",
-        "GOGPRODUCTID": null,
-        "COVER": "AoM_X_Cover.jpg",
-        "RELEASEDATE": "2003-09-30",
-        "EDITION": "Original Release",
-        "EDITIONDATE": null,
-        "DEVELOPER": "Ensemble Studios",
-        "PUBLISHER": "Microsoft Studios",
-        "SERIES": "Age of Empires",
-        "SERIESSORTNUMBER": "7",
-        "SUBSERIES": "Age of Mythology",
-        "SUBSERIESSORTNUMBER": "2",
-        "EDITOR": "Yes",
-        "ONLINEDRM": "No",
-        "NETWORKMULTIPLAYER": "Yes",
-        "DIRECTCONNECT": "Yes",
-        "LANMULTIPLAYER": "Yes",
-        "ONLINEMULTIPLAYER": "No",
-        "NETWORKCOOP": "No",
-        "LOCALMULTIPLAYER": "No",
-        "LOCALCOOP": "No",
-        "OTHERONLINEFEATURES": "NA",
-        "COMPONENT": "7"
-        }
-    ],
-    "COMPONENTS":
-    [
-
+PACKAGENAME (string) - The name of the package eg. "Age of Mythology"
+PACKAGEUID (string) - A unique identifier for this specific software. For games, using TGDBID is recommended.
+PACKAGEVERSION (string) - A package version, set by the packager eg. "v1.0"
+SUBGAMES" (array):
+TITLE" (string) - "Age of Mythology",
+PLATFORM" (string) - "Windows",
+EXEPATH" (string) - "aom.exe",
+EXEARGS" (string) - "xres=%ScreenWidth% yres=%ScreenHeight%",
+WORKDIR" (string) - null,
+GAMEUID" (string) - "7804",
+TGDBID" (string) - "7804",
+STEAMAPPID" (string) - null,
+UMUID" (string) - "0",
+GOGPRODUCTID" (string) - null,
+COVER" (string) - "AoM_Cover.jpg",
+RELEASEDATE" (string) - "2002-10-30",
+EDITION" (string) - "Original Release",
+EDITIONDATE" (string) - null,
+DEVELOPER" (string) - "Ensemble Studios",
+PUBLISHER" (string) - "Microsoft Studios",
+SERIES" (string) - "Age of Empires",
+SERIESSORTNUMBER" (string) - "6",
+SUBSERIES" (string) - "Age of Mythology",
+SUBSERIESSORTNUMBER" (string) - "1",
+EDITOR" (string) - "Yes",
+ONLINEDRM" (string) - "No",
+NETWORKMULTIPLAYER" (string) - "Yes",
+DIRECTCONNECT" (string) - "Yes",
+LANMULTIPLAYER" (string) - "Yes",
+ONLINEMULTIPLAYER" (string) - "No",
+NETWORKCOOP" (string) - "No",
+LOCALMULTIPLAYER" (string) - "No",
+LOCALCOOP" (string) - "No",
+OTHERONLINEFEATURES" (string) - "NA",
+COMPONENT" (string) - "3"
+COMPONENTS (array)
 
 # Components
